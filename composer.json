@@ -16,7 +16,7 @@
   "repositories": [
       {
         "type": "composer",
-        "url": "https://github.com/JPTIWARI1883/magento2-configuration-emptycart.git"
+        "url": "https://packagist.org/packages/gim/emptycart"
       }
   ],
   "extra": {
