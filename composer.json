@@ -1,5 +1,5 @@
 {
-  "name": "JPTIWARI1883/magento2-configuration-emptycart",
+  "name": "mangoit/emptycart",
   "description": "A Magento 2 module that creates a new page",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -30,7 +30,7 @@
   "minimum-stability": "dev",
   "autoload": {
         "psr-4": {
-            "JPTIWARI1883\\magento2-configuration-emptycart\\": ""
+            "mangoit\\emptycart\\": ""
         },
         "files": [
             "registration.php"
