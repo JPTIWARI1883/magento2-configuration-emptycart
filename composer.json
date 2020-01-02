@@ -25,7 +25,7 @@
             "app/code/Gim/Emptycart": ["gim/emptycart"]
         }
     },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
    "prefer-stable": true,
   "autoload": {
         "psr-4": {
