@@ -16,16 +16,22 @@
   "repositories": [
       {
         "type": "composer",
-        "url": "https://packagist.org/packages/gim/emptycart"
+        "url": "https://github.com/JPTIWARI1883/magento2-configuration-emptycart.git"
       }
   ],
   "extra": {
     "magento-deploystrategy": "copy",  
+    "map": [
+            [
+                "*",
+                "Yourcompany/YourModule/"
+            ]
+        ],
         "installer-paths": {
             "app/code/Gim/Emptycart": ["gim/emptycart"]
         }
     },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
    "prefer-stable": true,
   "autoload": {
         "psr-4": {
