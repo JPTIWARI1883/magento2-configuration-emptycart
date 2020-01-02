@@ -24,7 +24,7 @@
     "map": [
             [
                 "*",
-                "Yourcompany/YourModule/"
+                "Gim/Emptycart/"
             ]
         ],
         "installer-paths": {
