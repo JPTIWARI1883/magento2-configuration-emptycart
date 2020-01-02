@@ -22,6 +22,7 @@
     "magento-root-dir": "app/code",
     "magento-deploystrategy": "copy"
   },
+  "minimum-stability": "dev",
   "autoload": {
         "psr-4": {
             "gim\\emptycart\\": ""
