@@ -16,10 +16,6 @@
   "repositories": [
       {
         "type": "composer",
-        "url": "https://repo.magento.com/"
-     },
-     {
-        "type": "git",
         "url": "https://github.com/JPTIWARI1883/magento2-configuration-emptycart.git"
       }
   ],
