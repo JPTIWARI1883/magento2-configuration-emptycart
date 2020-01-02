@@ -29,8 +29,11 @@
   },
   "minimum-stability": "dev",
   "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "JPTIWARI1883\\magento2-configuration-emptycart\\": ""
+        "psr-4": {
+            "JPTIWARI1883\\magento2-configuration-emptycart\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
     }
   }
