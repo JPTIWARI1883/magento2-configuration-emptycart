@@ -19,9 +19,11 @@
       }
   ],
   "extra": {
-    "magento-root-dir": "app/code",
-    "magento-deploystrategy": "copy"
-  },
+    "magento-deploystrategy": "copy",  
+        "installer-paths": {
+            "app/code/Gim/Emptycart": ["gim/emptycart"]
+        }
+    },
   "minimum-stability": "dev",
    "prefer-stable": true,
   "autoload": {
