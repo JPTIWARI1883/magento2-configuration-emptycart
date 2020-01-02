@@ -1,5 +1,5 @@
 {
-  "name": "mangoit/emptycart",
+  "name": "gim/emptycart",
   "description": "A Magento 2 module that creates a new page",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -27,10 +27,10 @@
     "magento-root-dir": "app/code",
     "magento-deploystrategy": "copy"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
         "psr-4": {
-            "mangoit\\emptycart\\": ""
+            "gim\\emptycart\\": ""
         },
         "files": [
             "registration.php"
